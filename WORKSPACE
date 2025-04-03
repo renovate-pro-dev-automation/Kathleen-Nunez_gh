@@ -70,7 +70,7 @@ maven_install(
     #
     # > bazel run @unpinned_maven//:pin
     artifacts = [
-        "com.google.guava:guava:28.0-jre",
+        "com.google.guava:guava:32.0.0-android",
         "io.opencensus:opencensus-api:" + OPENCENSUS_VERSION,
         "io.opencensus:opencensus-contrib-agent:" + OPENCENSUS_VERSION,
         "io.opencensus:opencensus-contrib-grpc-metrics:" + OPENCENSUS_VERSION,
